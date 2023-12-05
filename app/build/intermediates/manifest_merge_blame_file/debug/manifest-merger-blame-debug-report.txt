@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assignment_2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="32" />
+10
+11    <application
+11-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:5:5-53:19
+12        android:name="com.example.assignment_2.MyApp"
+12-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:6:9-30
+13        android:allowBackup="true"
+13-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.8.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\aabe319bd060479ad5c49cd4e2195058\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15        android:dataExtractionRules="@xml/data_extraction_rules"
+15-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:8:9-65
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:9:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Assignment_2" >
+24-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:14:9-50
+25        <activity
+25-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:16:9-22:20
+26            android:name="com.example.assignment_2.DetailHistoryActivity"
+26-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:17:13-50
+27            android:exported="false" >
+27-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:18:13-37
+28            <meta-data
+28-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:19:13-21:36
+29                android:name="android.app.lib_name"
+29-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:20:17-52
+30                android:value="" />
+30-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:21:17-33
+31        </activity>
+32        <activity
+32-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:23:9-29:20
+33            android:name="com.example.assignment_2.ShowHistoryActivity"
+33-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:24:13-48
+34            android:exported="false" >
+34-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:25:13-37
+35            <meta-data
+35-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:19:13-21:36
+36                android:name="android.app.lib_name"
+36-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:20:17-52
+37                android:value="" />
+37-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:21:17-33
+38        </activity>
+39        <activity
+39-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:30:9-36:20
+40            android:name="com.example.assignment_2.RestockActivity"
+40-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:31:13-44
+41            android:exported="false" >
+41-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:32:13-37
+42            <meta-data
+42-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:19:13-21:36
+43                android:name="android.app.lib_name"
+43-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:20:17-52
+44                android:value="" />
+44-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:21:17-33
+45        </activity>
+46        <activity
+46-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:37:9-51:20
+47            android:name="com.example.assignment_2.MainActivity"
+47-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:38:13-41
+48            android:exported="true"
+48-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:40:13-36
+49            android:screenOrientation="fullSensor" >
+49-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:39:13-51
+50            <intent-filter>
+50-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:42:13-46:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:43:17-69
+51-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:43:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:45:17-77
+53-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:45:27-74
+54            </intent-filter>
+55
+56            <meta-data
+56-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:19:13-21:36
+57                android:name="android.app.lib_name"
+57-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:20:17-52
+58                android:value="" />
+58-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:21:17-33
+59        </activity>
+60        <activity android:name="com.example.assignment_2.ManagerActivity" />
+60-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:52:9-53
+60-->E:\seneca-bootcamp-classwork\android\assignment-2\Assignment2-CashRegister\app\src\main\AndroidManifest.xml:52:19-50
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.example.assignment_2.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\2574954701a714ea16e99c74ff3eb9c8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\7c330ddced60479106656ed144a0a37d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\7c330ddced60479106656ed144a0a37d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\AndroidStudioProjects\Donation App F23\caches\transforms-3\7c330ddced60479106656ed144a0a37d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+72        </provider>
+73    </application>
+74
+75</manifest>
